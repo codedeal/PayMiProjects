@@ -26,4 +26,11 @@ public class TestCases
 		System.out.print("in test 3");
 		Assert.assertEquals(true, false);
 	}
+	
+	@Test
+	public void test4()
+	{
+		System.out.print("in test 4");
+		Assert.assertEquals(true, true);
+	}
 }
